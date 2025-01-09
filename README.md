@@ -14,14 +14,21 @@ You can download the dataset from the link below:
 The following Python libraries are used in this project:
 
 python
+# Data Preprocessing Libraries
 import nltk  # Natural Language Toolkit
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+
+# Machine Learning Libraries
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix
+
+# Visualization Libraries
 import matplotlib.pyplot as plt
+
+# Utility Libraries
 import emoji
 
 
