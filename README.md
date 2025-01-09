@@ -4,7 +4,7 @@ This project involves building a sentiment analysis model to classify tweets int
 
 ## Dataset
 
-The dataset used in this project is the [Sentiment140 Dataset](https://www.kaggle.com/datasets/kazanova/sentiment140) from Kaggle. This dataset contains 1.6 million tweets and is commonly used for sentiment analysis tasks.
+The dataset used in this project is the [Sentiment140 Dataset](https://www.kaggle.com/datasets/kazanova/sentiment140) from Kaggle. This dataset contains 1.6 million tweets labeled as positive or negative and is commonly used for sentiment analysis tasks.
 
 You can download the dataset from the link below:
 
@@ -29,11 +29,6 @@ import emoji
 - *Emoji Library*: Install using the following command:
   bash
   pip install emoji
-  
-
-## Dataset
-The dataset used is:
-- *training.1600000.processed.noemoticon.csv*: A pre-processed dataset of tweets labeled as positive or negative.
 
 ## Project Workflow
 
@@ -69,6 +64,8 @@ The dataset used is:
 5. *Future Goals*:
    - Extend the model to support multilingual sentiment analysis using mBERT.
    - Aim for a global reach with a target accuracy of *75%* for multilingual sentiment classification.
+  
+
 ## Usage
 1. Install the required libraries:
    bash
