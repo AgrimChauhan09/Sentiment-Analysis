@@ -2,6 +2,14 @@
 
 This project involves building a sentiment analysis model to classify tweets into positive or negative sentiment. The model is based on logistic regression and achieves an accuracy of *80%* on the validation dataset. Advanced preprocessing techniques, including stemming, emoticon handling, and abbreviation standardization, are employed to improve the efficiency and accuracy of the model.
 
+## Dataset
+
+The dataset used in this project is the [Sentiment140 Dataset](https://www.kaggle.com/datasets/kazanova/sentiment140) from Kaggle. This dataset contains 1.6 million tweets and is commonly used for sentiment analysis tasks.
+
+You can download the dataset from the link below:
+
+- [Sentiment140 Dataset on Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140)
+
 ## Libraries and Tools Used
 The following Python libraries are used in this project:
 
